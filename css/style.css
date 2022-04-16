@@ -1,0 +1,28 @@
+aside{
+   background-color: #406169;
+   width: 200px;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+.logo{
+    height: 150px;
+}
+
+.navLeft{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navLeft .navItem{
+    display: inline-block;
+    align-items: flex-start;
+}
+
+.navItem a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
