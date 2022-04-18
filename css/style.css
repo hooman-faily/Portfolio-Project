@@ -8,6 +8,9 @@ aside{
 .logo{
     height: 150px;
 }
+.aboutMeText{
+    color: white;
+}
 
 .navLeft{
     list-style: none;
