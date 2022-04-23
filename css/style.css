@@ -1,5 +1,7 @@
 .mainPage{
     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
 }
 
 aside{
@@ -8,8 +10,10 @@ aside{
    height: 100vh;
    display: flex;
    flex-direction: column;
+   align-items: center;
 }
 .logo{
+    margin-top: 25px;
     height: 150px;
 }
 .aboutMeText{
@@ -22,6 +26,18 @@ aside{
     padding: 0px;
 }
 
+.navItem{
+    background-color: #79858A;
+    color: white;
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.navItem:hover{
+    background-color: white;
+    color: #406169;
+}
 
 .navLeft .navItem{
     display: inline-block;
@@ -32,20 +48,35 @@ aside{
     text-decoration: none;
     display: block;
     padding: 10px 20px;
+    color: white;
+}
+.navItem a:hover{
+    color: #406169;
 }
 
 .caseStudyZone{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .caseStudyTab{
     display: inline-flex;
     width: 950px;
     height: 220px;
-    align-items: flex-end;
-    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.caseStudyTabText{
+
+}
+.tabImage{
+ margin-left: 30px;
+ margin-right: 35px;
+}
+.caseStudyHeaderTwo{
+
 }
 
 #musicaTab{
