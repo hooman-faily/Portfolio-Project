@@ -1,3 +1,7 @@
+.mainPage{
+    display: flex;
+}
+
 aside{
    background-color: #406169;
    width: 200px;
@@ -32,21 +36,24 @@ aside{
 
 .caseStudyZone{
     display: flex;
+    flex-direction: column;
     align-items: flex-end;
-    justify-content: center;
+    justify-content: space-between;
 }
 .caseStudyTab{
     display: inline-flex;
     width: 950px;
-    height: 320px;
+    height: 220px;
     align-items: flex-end;
     justify-content: center;
 }
+
 #musicaTab{
     background-color: #FF9900;
 }
 #grantsDotGovTab{
     background-color: #3A4F1B;
+    color: white;
 }
 #familabTab{
     background-color: #3399FE;
