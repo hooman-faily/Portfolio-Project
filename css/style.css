@@ -27,6 +27,11 @@ aside{
     list-style: none;
     margin: 0px;
     padding: 0px;
+    width: 100%;
+}
+
+.navLeft ul{
+    padding-left: 0px;
 }
 
 .navItem{
@@ -35,17 +40,29 @@ aside{
     width: 100%;
     margin-top: 2px;
     margin-bottom: 2px;
+    display: flex;
+    flex-direction: row;
+}
+.sideAccent{
+    height: 40px;
+    background-color: white;
+    width: 15px;
+}
+.inactive{
+    display: none;
 }
 
+.active{
+    background-color: #406169 !important;
+}
+.active a{
+    color: white !important;
+}
 .navItem:hover{
     background-color: white;
     color: #406169;
 }
 
-.navLeft .navItem{
-    display: inline-block;
-    align-items: flex-start;
-}
 
 .navItem a{
     text-decoration: none;
